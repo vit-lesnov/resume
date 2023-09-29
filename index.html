@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание #3 курс по HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="info">
+            <img src="images/лвв.jpg" alt="Леснов Виталий" class="avatar">
+
+            <div class="info-text">    
+            <h1>Виталий Леснов</h1>
+            
+            <p>Я работаю <strong>главным бухгалтером в аудиторской компании</strong>, а также оказываю услуги <strong>бухгалтерского аутсорсинга</strong> малым ИП и ООО. Проживаю в городе Краснодаре Краснодарского края.</p>
+            
+            <p>Люблю заниматься <em>спортом, в частности калистеникой (<u>калистеника - система тренировок с весом собственного тела</u>), играть в большой теннис!</em></p> 
+            
+            <p>В настоящее время <b><em>хочу сменить</em></b> направление своей профессиональной деятельности. Освоить новые навыки, получить новые знания и опыт!</p>
+                <div class="social">   
+                <h3>Список социальных сетей:</h3>
+
+                <a href="https://vk.com/v_lesnov" target="_blank">Vkontakte</a>
+                |
+                <a href="https://t.me/@Vitalii_Lesnov" target="_blank">Telegram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-1">
+        <h3>Мои хобби:</h3>
+
+        <ol class="list">
+            <li>Калистеника</li>
+            <li>Большой теннис</li>
+            <li>Сальса - стиль Нью-Йорк</li>
+            <li>Футбол</li>
+        </ol>
+        </div>
+
+        <div class="card-2">
+        <h3>Опыт работы</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год/Период</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ИНФО.АУДИТ</td>
+                    <td>Главный бухгалтер</td>
+                    <td>2013 - по н.в.</td>
+                </tr>
+                <tr>
+                    <td>ЮИКЦ</td>
+                    <td>Финансовый директор</td>
+                    <td>2013 - 2014</td>
+                </tr>
+                <tr>
+                    <td>ВЫСШАЯ ЛИГА</td>
+                    <td>Менеджер по продажам</td>
+                    <td>2011 - 2011</td>
+                </tr>
+            </tbody>
+            <!-- <tfoot>
+                <tr>
+                </tr>
+            </tfoot> -->
+
+        </table>
+        </div>
+
+        <div>
+        
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+            
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                
+                <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn"><b>Отправить!</b></button>
+            </div>
+        </form>
+        <br><br><br>
+    </div>    
+
+
+</body>
+</html>
