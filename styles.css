@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 750px;
+    max-width: 950px;
     margin: auto;
     padding-top: 30px;
 }
@@ -31,12 +31,12 @@ body {
 }
 
 .avatar {
-  width: 250px;
-    height: 270px;
+    width: 300px;
+    height: 300px;
     box-shadow: 4px 4px 14px; 
     color: rgba (0, 0, 0, 0.25);
     border-radius: 25px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .info-text p {
@@ -49,12 +49,17 @@ body {
     margin-bottom: 10px;
 }
 
+th {
+   text-align: left; 
+}
+
 .card-1 {
     /* border: 3px solid green; */
     border-radius: 10px;
-    background-color: #AFEEEE;
+    background-color: #baf7c8;
     padding-left: 5px;
     margin-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .card-2 {
@@ -62,8 +67,27 @@ body {
     border-radius: 10px;
     background-color: rgba(245, 300, 120, 50);
     padding-left: 5px;
-    padding-bottom: 5px;
     margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.card-3 {
+    /* border: 3px solid green; */
+    border-radius: 10px;
+    background-color: #d5ccd3;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.card-4 {
+    /* border: 3px solid green; */
+    border-radius: 10px;
+    /* background-color: #AFEEEE; */
+    background-color: #93b0e2;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 /* .communication {
@@ -85,7 +109,7 @@ body {
 }
 
 a {
-    color: #1E90FF;
+    color: #0e0ef3ed;
     text-decoration: none;
 }
 a:hover {
@@ -97,7 +121,7 @@ a:active {
 }   
 
 a:visited {
-    color: darkred;
+    color: #7e0a5c;
 }
 
 .btn {
@@ -127,13 +151,15 @@ a:visited {
     border-radius: 5px;
 } */
 
-.table td:nth-child(3), .table td:nth-child(1) {
+/* Выделение цветом графы таблицы */
+/* .table td:nth-child(2) {
     background: #FFD700;
-}
+} */
 
-.table tr:nth-child(3) {
+/* Выделение цветом строки таблицы */
+/* .table tr:nth-child(3) {
     background: #FFD700;
-}
+} */
 
 .list li {
     margin-bottom:10px;
@@ -189,4 +215,10 @@ a:visited {
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
+}
+
+.сopyright {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
 }
